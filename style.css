@@ -23,9 +23,12 @@ body {
     height: 22px;
     width: 22px;
     border: 1px solid black;
-
 }
 
 .square:hover {
     background-color: lightgreen;
+}
+
+.touched {
+    background-color: rgba(144, 238, 144, .7);
 }
