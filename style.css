@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+} 
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 22px);
+    width: 356px;
+    height: 356px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+.square {
+    background-color: lightgray;
+    height: 22px;
+    width: 22px;
+    border: 1px solid black;
+
+}
+
+.square:hover {
+    background-color: lightgreen;
+}
