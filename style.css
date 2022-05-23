@@ -4,24 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-} 
-
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 22px);
-    width: 356px;
-    height: 356px;
-    border: 2px solid black;
-    margin-top: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    width: 960px;
+    height: 960px;
+    margin: 15px auto;
 }
 
 .square {
     background-color: lightgray;
-    height: 22px;
-    width: 22px;
     border: 1px solid black;
 }
 
