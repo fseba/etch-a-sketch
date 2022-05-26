@@ -19,8 +19,8 @@ p {
 .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 960px;
-    height: 960px;
+    width: 700px;
+    height: 700px;
     margin: 15px auto;
 }
 
