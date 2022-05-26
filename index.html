@@ -9,6 +9,16 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="dropdown">
+        <span>Instruction</span>
+        <div class="dropdown-content">
+            <ul>
+                <li>Press 'Set grid size' to create a new grid</li>
+                <li>Press 'Reset' to clear the grid</li>
+                <li>Press the unnamed button to activate the rainbow mode</li>
+            </ul>
+        </div>
+    </div>
     <h1>etch-a-sketch</h1>
     <div class="btnContainer">
         <button class="btnSize" title="Set grid size from 1 to 100">Set grid size</button>
@@ -18,7 +28,7 @@
             <span class="slider"></span>
         </label> 
     </div>
-    <p>Rainbow mode active!</p> 
+    <p class="rainbowModeText">Rainbow mode active!</p> 
     <div class="container"></div>
 </body>
 </html>
