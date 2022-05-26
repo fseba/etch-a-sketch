@@ -66,7 +66,7 @@ function removeAllChildNodes(parent) {
 
 //limit for the user input
 function getUserInput() {
-    const userInput = parseInt(prompt('How much rows and columns? Please enter a number from 1 and 100.'));
+    const userInput = parseInt(prompt('How much rows and columns? Please enter a number from 1 to 100.'));
     if (userInput > 100) {
         alert('Max allowed grid size is 100 x 100! Please choose again.');
         return getUserInput();
