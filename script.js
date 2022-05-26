@@ -44,6 +44,7 @@ function createSquares(numberSquares) {
     for (let i = 0; i < numberSquares * numberSquares; i++) {
         const div = document.createElement('div');
         div.classList.add('square');
+        //color the divs depending on mode
         div.addEventListener('mouseout', () => {
             if(rainbowModeToggle) {
                 if(!div.style.backgroundColor) {
@@ -75,3 +76,5 @@ function getUserInput() {
     };
     return userInput;
 }
+
+window.onload = createSquares(16);
